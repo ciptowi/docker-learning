@@ -1,12 +1,18 @@
-# Docker
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 
-## Docker pull Postgres image
-```
-docker pull postgres
-```
+> [!TIP]
+> Helpful advice for doing things better or more easily.
 
-## Docker run
-“docker run --name -d <cont-name> -p 5432:5432 -e POSTGRES_PASSWORD=<password> postgres”
-```
-docker run --name mypostgresdb -e POSTGRES_PASSWORD=psql123 -p 5432:5432 -d postgres
-```
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+
+- [x] #739
+- [ ] Add delight to the experience when all tasks are complete :tada:
